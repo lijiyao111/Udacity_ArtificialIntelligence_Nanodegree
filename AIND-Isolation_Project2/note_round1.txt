@@ -1,0 +1,115 @@
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+  Match 1: ID_Improved vs   Random      Result: 15 to 5
+  Match 2: ID_Improved vs   MM_Null     Result: 14 to 6
+  Match 3: ID_Improved vs   MM_Open     Result: 11 to 9
+  Match 4: ID_Improved vs MM_Improved   Result: 10 to 10
+  Match 5: ID_Improved vs   AB_Null     Result: 15 to 5
+  Match 6: ID_Improved vs   AB_Open     Result: 12 to 8
+  Match 7: ID_Improved vs AB_Improved   Result: 12 to 8
+
+
+Results:
+----------
+ID_Improved         63.57%
+
+*************************
+  Evaluating: Student1   
+*************************
+
+Playing Matches:
+----------
+  Match 1:  Student1   vs   Random      Result: 17 to 3
+  Match 2:  Student1   vs   MM_Null     Result: 14 to 6
+  Match 3:  Student1   vs   MM_Open     Result: 13 to 7
+  Match 4:  Student1   vs MM_Improved   Result: 11 to 9
+  Match 5:  Student1   vs   AB_Null     Result: 16 to 4
+  Match 6:  Student1   vs   AB_Open     Result: 12 to 8
+  Match 7:  Student1   vs AB_Improved   Result: 11 to 9
+
+
+Results:
+----------
+Student1            67.14%
+
+*************************
+  Evaluating: Student2a  
+*************************
+
+Playing Matches:
+----------
+  Match 1:  Student2a  vs   Random      Result: 20 to 0
+  Match 2:  Student2a  vs   MM_Null     Result: 15 to 5
+  Match 3:  Student2a  vs   MM_Open     Result: 15 to 5
+  Match 4:  Student2a  vs MM_Improved   Result: 10 to 10
+  Match 5:  Student2a  vs   AB_Null     Result: 12 to 8
+  Match 6:  Student2a  vs   AB_Open     Result: 14 to 6
+  Match 7:  Student2a  vs AB_Improved   Result: 14 to 6
+
+
+Results:
+----------
+Student2a           71.43%
+
+*************************
+  Evaluating: Student2b  
+*************************
+
+Playing Matches:
+----------
+  Match 1:  Student2b  vs   Random      Result: 16 to 4
+  Match 2:  Student2b  vs   MM_Null     Result: 15 to 5
+  Match 3:  Student2b  vs   MM_Open     Result: 12 to 8
+  Match 4:  Student2b  vs MM_Improved   Result: 13 to 7
+  Match 5:  Student2b  vs   AB_Null     Result: 13 to 7
+  Match 6:  Student2b  vs   AB_Open     Result: 13 to 7
+  Match 7:  Student2b  vs AB_Improved   Result: 15 to 5
+
+
+Results:
+----------
+Student2b           69.29%
+
+*************************
+  Evaluating: Student3a  
+*************************
+
+Playing Matches:
+----------
+  Match 1:  Student3a  vs   Random      Result: 18 to 2
+  Match 2:  Student3a  vs   MM_Null     Result: 15 to 5
+  Match 3:  Student3a  vs   MM_Open     Result: 12 to 8
+  Match 4:  Student3a  vs MM_Improved   Result: 11 to 9
+  Match 5:  Student3a  vs   AB_Null     Result: 14 to 6
+  Match 6:  Student3a  vs   AB_Open     Result: 12 to 8
+  Match 7:  Student3a  vs AB_Improved   Result: 13 to 7
+
+
+Results:
+----------
+Student3a           67.86%
+
+*************************
+  Evaluating: Student3b  
+*************************
+
+Playing Matches:
+----------
+  Match 1:  Student3b  vs   Random      Result: 17 to 3
+  Match 2:  Student3b  vs   MM_Null     Result: 14 to 6
+  Match 3:  Student3b  vs   MM_Open     Result: 12 to 8
+  Match 4:  Student3b  vs MM_Improved   Result: 13 to 7
+  Match 5:  Student3b  vs   AB_Null     Result: 16 to 4
+  Match 6:  Student3b  vs   AB_Open     Result: 13 to 7
+  Match 7:  Student3b  vs AB_Improved   Result: 15 to 5
+
+
+Results:
+----------
+Student3b           71.43%
+[Finished in 1813.4s]

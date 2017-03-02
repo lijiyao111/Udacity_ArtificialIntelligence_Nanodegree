@@ -1,0 +1,133 @@
+aircargo p1
+TTTTFFFFFFFF
+Action:
+Load (C1, P1, JFK)
+Load (C1, P1, SFO)
+Load (C1, P2, JFK)
+Load (C1, P2, SFO)
+Load (C2, P1, JFK)
+Load (C2, P1, SFO)
+Load (C2, P2, JFK)
+Load (C2, P2, SFO)
+Unload (C1, P1, JFK)
+Unload (C1, P1, SFO)
+Unload (C1, P2, JFK)
+Unload (C1, P2, SFO)
+Unload (C2, P1, JFK)
+Unload (C2, P1, SFO)
+Unload (C2, P2, JFK)
+Unload (C2, P2, SFO)
+Fly (P1, JFK, SFO)
+Fly (P2, JFK, SFO)
+Fly (P1, SFO, JFK)
+Fly (P2, SFO, JFK)
+State:
+At(C1, SFO)
+At(C2, JFK)
+At(P1, SFO)
+At(P2, JFK)
+At(C2, SFO)
+In(C2, P1)
+In(C2, P2)
+At(C1, JFK)
+In(C1, P1)
+In(C1, P2)
+At(P1, JFK)
+At(P2, SFO)
+Goal:
+At(C1, JFK)
+At(C2, SFO)
+
+*** Breadth First Search
+
+Expansions   Goal Tests   New Nodes
+    43          56         180    
+
+Plan length: 6  Time elapsed in seconds: 0.0346052463885453
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+*** Depth First Search
+
+Expansions   Goal Tests   New Nodes
+    21          22          84    
+
+Plan length: 20  Time elapsed in seconds: 0.015723820625171143
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P1, JFK)
+Fly(P1, JFK, SFO)
+Fly(P2, SFO, JFK)
+Unload(C2, P1, SFO)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P2, SFO)
+Fly(P1, JFK, SFO)
+Load(C1, P2, SFO)
+Fly(P2, SFO, JFK)
+Fly(P1, SFO, JFK)
+Unload(C2, P2, JFK)
+Unload(C1, P2, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P1, JFK)
+Fly(P1, JFK, SFO)
+Fly(P2, SFO, JFK)
+Unload(C2, P1, SFO)
+
+*** Uniform Cost Search
+
+Expansions   Goal Tests   New Nodes
+    55          57         224    
+
+Plan length: 6  Time elapsed in seconds: 0.043182722159961134
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+*** Greedy Best First Graph Search - null heuristic
+
+Expansions   Goal Tests   New Nodes
+    7           9           28    
+
+Plan length: 6  Time elapsed in seconds: 0.005768825166074437
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+A-star ignore preconditions heuristic
+
+Expansions   Goal Tests   New Nodes
+    41          43         170    
+
+Plan length: 6  Time elapsed in seconds: 0.05198748386446439
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+
+A-star levelsum heuristic
+
+Expansions   Goal Tests   New Nodes
+    11          13          50    
+
+Plan length: 6  Time elapsed in seconds: 1.507861749799921
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+[Finished in 2.3s]
